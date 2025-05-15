@@ -77,12 +77,19 @@ make fclean
 
 ## 📁 Project Structure
 
-- `philo.c`: Entry point
-- `philo.h`: Header file with data structures and function prototypes
-- `init.c`: Initialization logic for data and threads
-- `routine.c`: Thread routine and behavior logic
-- `utils.c`: Utility functions for time, printing, and cleanup
-- `Makefile`: Build system with custom Valgrind tools
+```
+philosophers/
+├── Makefile
+├── README.md
+└── src/
+    ├── dinner.c
+    ├── init.c
+    ├── main.c
+    ├── monitor.c
+    ├── status.c
+    ├── utils.c
+    └── validation.c
+```
 
 ---
 
